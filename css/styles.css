@@ -1,0 +1,194 @@
+/* --------------------------------------------------- Body Tags ------------------------------------------------------ */
+* {
+    -moz-box-sizing: border-box; /* Firexfox */
+    -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+    box-sizing: border-box; /* IE */
+    margin: 0;
+    padding: 0;
+}
+/* --------------------------------------------------- Container 1 ------------------------------------------------------ */
+#container1{
+    font-family: 'Poppins', sans-serif;
+    background-image: url(../images/Image1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.top-button{
+    padding: 30px;
+}
+.title-name{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2rem;
+    text-decoration: none;
+    color: #fff;
+}
+.title-name:hover{
+    color:black;
+}
+.reservation{
+    position: absolute;
+    right: 2%;
+    margin-top: 10px;
+    background-color: #206a5d;
+    border-radius: 30px;
+    color: #fff;
+}
+.reservation:hover{
+    background-color: #fff;
+    color: black;
+}
+.C1headings{
+    text-align:center;
+    margin: 2% auto;
+    color: #fff;
+    padding: 15% 30%;  
+}
+/* --------------------------------------------------- Container 2 ------------------------------------------------------ */
+.c2img2{
+    display:inline-block;
+    padding: 5% 2% 3%;
+    margin-left: 5%;
+    max-width: 100%;
+    width: 50%;
+    height: auto;
+}
+.About{
+    display:inline-block;
+    text-align: left;
+    margin: 5% 5% 0;
+    padding: 5% 2% 0;
+}
+.abt-title{
+    font-weight: 2.1rem;
+    font-size: 3rem;
+    margin-bottom: 1.8rem;
+}
+.c2btn{
+    border-radius: 2.1rem;
+    padding: 0.9rem 2.5rem;
+    margin-top: 1.8rem;
+}
+.book-room{
+    background-color: #206a5d;
+    color: #fff;
+}
+@media (max-width: 1290px) {
+    .c2img2{
+        position: static;
+        display: block;
+        margin: 0 1.25rem 1.25rem 0;
+        width: 100%;
+        height: 100%;
+    }
+    .About{
+        width: 90%;
+    }
+}
+#container2{
+    padding-bottom: 5%;
+    font-family: 'Poppins', sans-serif;
+}
+/* --------------------------------------------------- Container 3 ------------------------------------------------------ */
+.vid{
+    width: 100%;
+    height: auto;
+}
+.yt-vid{
+    display:inline;
+    width: 100%;
+    padding: 0;
+    margin: 0 1.25rem 1.25rem 0;
+}
+/* --------------------------------------------------- Container 4 ------------------------------------------------------ */
+.tabs{
+    float: left;    
+    font-size:larger;
+    width: 50%; 
+    margin: 5% 2% 0;
+    padding: 5% 2% 0;
+}
+.navigation{
+    display:inline-block;
+    width: 50%;
+    margin: 2% 2% 0;
+}
+.read-more{
+    background-color: #206a5d;
+    color: #fff;
+    border-radius: 35px;
+}
+.c4imgs{
+    max-width: 100%;
+    width: 40%;
+    height: auto;
+    display: inline-block;
+    margin-left: 3%;
+    margin-bottom: 2%;   
+}
+@media (max-width: 1290px) {
+    .c4imgs{
+        position: static;
+        display: block;
+        margin: 0;
+        width: 100%;
+        padding-top: 1.25rem;
+    }
+    .navigation{
+        width: 90%;
+        text-align: left;
+        padding-left: 0.4rem;
+    }
+    .tabs{
+        padding-left: 2px;
+        width: 90%;
+    }
+}
+/* --------------------------------------------------- Container 5 ------------------------------------------------------ */
+#container5{
+    position: relative;
+}
+.c5imgs{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.Explore{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    color: black;
+    border-radius: 35px;
+    font-size: 20px;
+    padding: 12px 35px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+}
+.Explore:hover{
+    background-color: black;
+    color: #fff;
+}
+/* --------------------------------------------------- Container 6 ------------------------------------------------------ */
+#container6{
+    font-family: 'Poppins', sans-serif;
+}
+.pricing{
+    text-align: center;
+}
+.black{
+    background-color: black;
+    color: #fff;
+}
+.white{
+    background-color:#fff;
+}
+.view-room{
+    background-color: #206a5d;
+    color:#fff;
+    border-radius: 35px;
+    padding: 3%;
+}
+/*  --------------------------------------------------------------------------------------------------------- */
